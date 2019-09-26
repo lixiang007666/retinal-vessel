@@ -1,0 +1,20 @@
+[data attributes]
+fold = 1
+dataset= DRIVE
+
+[result paths]
+result_dir = Results
+expeerment_name = Mi-UNet
+
+[training settings]
+#Number of training epochs
+N_epochs = 2000
+train_bs = 2
+test_bs = 1
+num_class = 2
+
+finetune = 0
+pkl_path = Results/Mi-UNet36/net_params.pkl
+
+[testing settings]
+
